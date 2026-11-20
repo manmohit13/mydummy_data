@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "collectionName": "articles",
   "info": {
     "singularName": "article",
@@ -9,6 +10,12 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {},
-  "kind": "collectionType"
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
 }

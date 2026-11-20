@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{localUrl}}/api/products-collections/polrn98gqf3cgpzk80wg35sw"
+method: GET
+order: 2000

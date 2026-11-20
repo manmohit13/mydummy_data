@@ -1,0 +1,25 @@
+$kind: http-request
+url: "{{$localUrl}}/api/articles/vnw1djw2uaaq96l3cgqjxpn2"
+method: PUT
+headers:
+  Authorization: "{{bearer_token_0aoq}}"
+body:
+  type: json
+  content: "{\r
+
+    \    \"data\": [\r
+
+    \        {\r
+
+    \            \"title\": \" Ambulance in kharar\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0v2b}}"
+order: 2000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{$localUrl}}/api/articles"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0v2b}}"
+order: 1000

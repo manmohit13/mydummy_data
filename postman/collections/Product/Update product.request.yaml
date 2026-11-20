@@ -1,0 +1,23 @@
+$kind: http-request
+url: "{{localUrl}}/api/products-collections/dgf7ixgievflap93st31pvge"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"data\": {\r
+
+    \        \"Product_id\": \"PRD-06\",\r
+
+    \        \"Product_Name\": \"Chitti the robot\",\r
+
+    \        \"Category\": \"Electronics\",\r
+
+    \        \"Price\": 20000,\r
+
+    \        \"Stock\": 20\r
+
+    \    }\r
+
+    }"
+order: 4000

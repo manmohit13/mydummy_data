@@ -1,0 +1,23 @@
+$kind: http-request
+url: "{{localUrl}}/api/products-collections/o4a57cnif72v0outz3knqqq8"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \    \"data\": {\r
+
+    \        \"Product_id\": \"PRD-06\",\r
+
+    \        \"Product_Name\": \"Chitti the robot\",\r
+
+    \        \"Category\": \"Electronics\",\r
+
+    \        \"Price\": 20000,\r
+
+    \        \"Stock\": 20\r
+
+    \    }\r
+
+    }"
+order: 5000

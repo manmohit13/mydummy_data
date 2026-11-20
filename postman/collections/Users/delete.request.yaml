@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{localUrl}}/api/users/3"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0j0u}}"
+order: 5000

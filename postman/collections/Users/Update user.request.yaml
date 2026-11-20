@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{localUrl}}/api/users/3"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\": \"kamal bassi\"\r
+
+    \   \r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0eg5}}"
+order: 3000

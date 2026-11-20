@@ -1,0 +1,27 @@
+$kind: http-request
+url: "{{localUrl}}/api/products-collections"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"data\": {\r
+
+    \        \"Product_id\": \"PRD-06\",\r
+
+    \        \"Product_Name\": \"Chitti the robot\",\r
+
+    \        \"Category\": \"Electronics\",\r
+
+    \        \"Price\": 50000,\r
+
+    \        \"Stock\": 20\r
+
+    \    }\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{Token}}"
+order: 3000

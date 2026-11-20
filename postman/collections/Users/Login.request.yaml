@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{localUrl}}/api/auth/local/"
+method: POST
+body:
+  type: json
+  content: '{"identifier":"manmohit@thexyzstudio.com","password":"Developer@012"}'
+auth:
+  type: bearer
+order: 4000

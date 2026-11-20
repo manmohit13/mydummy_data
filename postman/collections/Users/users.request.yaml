@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{localUrl}}/api/users/"
+method: GET
+order: 2000
