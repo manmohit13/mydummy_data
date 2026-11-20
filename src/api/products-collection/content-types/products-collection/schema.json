@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_collections",
+  "info": {
+    "singularName": "products-collection",
+    "pluralName": "products-collections",
+    "displayName": "Products Collection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_id": {
+      "type": "uid"
+    },
+    "Product_Name": {
+      "type": "string"
+    },  
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Electronics",
+        "Furniture",
+        "Kitchen",
+        " Accessories"
+      ]
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Stock": {
+      "type": "integer"
+    }
+  }
+}
