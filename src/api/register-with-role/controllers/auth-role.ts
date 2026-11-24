@@ -29,9 +29,9 @@ export default {
         username,
         email: email.toLowerCase(),
         password,
-        provider: 'local',
-        confirmed: true,
-        role: role.id,
+        provider: 'local', //provider: 'local' means email/password login
+        confirmed: true,    //confirmed: true skips email confirmation
+        role: role.id,     //role: role.id links the user to the role you found in previous step
       });
 
     const jwt = strapi.plugin('users-permissions').service('jwt').issue({ id: user.id }); // Generate a JWT token for the newly created user

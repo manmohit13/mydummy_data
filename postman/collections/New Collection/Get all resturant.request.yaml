@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{$localUrl}}/api/restaurants"
+method: GET
+headers:
+  Authorization: "{{bearer_token_0aoq}}"
+body:
+  type: json
+  content: ""
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0v2b}}"
+order: 2000
