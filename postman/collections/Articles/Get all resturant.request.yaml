@@ -9,5 +9,5 @@ body:
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_0v2b}}"
+    token: "{{Token}}"
 order: 2000

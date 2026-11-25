@@ -7,6 +7,7 @@ localResources:
     - ../src/extensions/documentation/documentation/1.0.0/full_documentation.json
 
 # Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
 cloudResources:
   collections:
     ../postman/collections/Product: 50154772-5ce47b75-7c12-485f-b117-b6350695e6a7

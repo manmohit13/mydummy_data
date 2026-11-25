@@ -9,3 +9,6 @@ variables:
   - key: json_web_token_0v2b
     secret: true
     disabled: false
+  - key: localUrl
+    value: ""
+    disabled: false

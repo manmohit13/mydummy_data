@@ -3,7 +3,25 @@ url: "{{localUrl}}/api/auth/local/"
 method: POST
 body:
   type: json
-  content: '{"identifier":"manmohit@thexyzstudio.com","password":"Developer@012"}'
+  content: '{"identifier":"Gaganjot singh","password":"Admin@123"}'
 auth:
   type: bearer
+  credentials:
+    token: "{{token}}"
+scripts:
+  - type: afterResponse
+    code: "if(pm.response.code === 200){\r
+
+      \    const response = pm.response.json();\r
+
+      \    if(response.token){\r
+
+      \        pm.collectionVariables.set('token', response.token);\r
+
+      \        console.log('Token saved:', response.token);\r
+
+      \    }\r
+
+      }"
+    language: text/javascript
 order: 4000
