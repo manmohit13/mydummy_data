@@ -18,6 +18,15 @@ variables:
     value: ""
     disabled: false
     secret: false
+  - key: json_web_token_0cj9
+    secret: true
+    disabled: false
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 0d5da3ee-ff6c-4e7e-87b5-38139808e0fd
+        vaultId: 72e733d0-053e-40f3-b9c9-81022b61e1c2
 scripts:
   - type: http:afterResponse
     code: "if(pm.response.code === 200){\r

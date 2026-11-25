@@ -5,13 +5,17 @@ body:
   type: json
   content: "{\r
 
-    \    \"username\": \"harsh badala\",\r
+    \    \"username\": \"Harry potter\",\r
 
-    \    \"email\": \"harsh@gmail.com\",\r
+    \    \"email\": \"harrypotter@gmail.com\",\r
 
     \    \"password\":\"Admin@123\",\r
 
     \    \"role\":\"adminnew\"\r
 
     }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0cj9}}"
 order: 6000
