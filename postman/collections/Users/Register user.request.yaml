@@ -5,13 +5,15 @@ body:
   type: json
   content: "{\r
 
-    \    \"username\": \"Rashi\",\r
+    \    \"username\": \"Gagan\",\r
 
-    \    \"email\": \"rashi@example.com\",\r
+    \    \"email\": \"gagan@example.com\",\r
 
     \    \"password\": \"test1234\"\r
 
     }   "
 auth:
-  type: noauth
+  type: bearer
+  credentials:
+    token: "{{token}}"
 order: 1000

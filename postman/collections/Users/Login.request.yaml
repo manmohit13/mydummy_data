@@ -3,7 +3,7 @@ url: "{{localUrl}}/api/auth/local/"
 method: POST
 body:
   type: json
-  content: '{"identifier":"Gaganjot singh","password":"Admin@123"}'
+  content: "{\"identifier\":\"manmohit\",\"password\":\"developer@012\"}\r\n"
 auth:
   type: bearer
   credentials:

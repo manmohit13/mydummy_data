@@ -5,13 +5,13 @@ body:
   type: json
   content: "{\r
 
-    \    \"username\": \"Harry potter\",\r
+    \    \"username\": \"karan aujla\",\r
 
-    \    \"email\": \"harrypotter@gmail.com\",\r
+    \    \"email\": \"karanaujla@gmail.com\",\r
 
     \    \"password\":\"Admin@123\",\r
 
-    \    \"role\":\"adminnew\"\r
+    \    \"role\":\"dev\"\r
 
     }"
 auth:
