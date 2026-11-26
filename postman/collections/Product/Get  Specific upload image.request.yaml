@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{localUrl}}/api/upload/files/wec43pk1ups642765w3oews5"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 7448

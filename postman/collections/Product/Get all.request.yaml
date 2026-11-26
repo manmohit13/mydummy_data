@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{localUrl}}/api/products-collections?populate=*"
+method: GET
+queryParams:
+  populate: "*"
+order: 1000

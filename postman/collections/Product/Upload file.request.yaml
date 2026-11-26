@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{localUrl}}/api/upload"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: files
+      src:
+        - /C:/Users/Xyz-Studio/Downloads/Mohit-PassportSize.png
+      description: ""
+      disabled: false
+auth:
+  type: noauth
+order: 5749

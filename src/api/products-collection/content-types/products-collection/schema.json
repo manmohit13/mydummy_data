@@ -16,21 +16,17 @@
     },
     "Product_Name": {
       "type": "string"
-    },  
-    "Category": {
-      "type": "enumeration",
-      "enum": [
-        "Electronics",
-        "Furniture",
-        "Kitchen",
-        " Accessories"
-      ]
     },
     "Price": {
       "type": "integer"
     },
-    "Stock": {
-      "type": "integer"
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
     }
   }
 }

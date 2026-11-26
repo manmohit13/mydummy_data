@@ -1,5 +1,5 @@
 $kind: http-request
-url: "{{localUrl}}/api/auth/local/"
+url: "{{localUrl}}/api/auth/local"
 method: POST
 body:
   type: json

@@ -7,21 +7,15 @@ body:
 
     \    \"data\": {\r
 
-    \        \"Product_id\": \"PRD-06\",\r
+    \        \"Product_id\": \"PRD-753\",\r
 
-    \        \"Product_Name\": \"Chitti the robot\",\r
+    \        \"Product_Name\": \"Superman \",\r
 
-    \        \"Category\": \"Electronics\",\r
+    \        \"Price\": 999999,\r
 
-    \        \"Price\": 50000,\r
-
-    \        \"Stock\": 20\r
+    \        \"image\": 3\r
 
     \    }\r
 
     }"
-auth:
-  type: bearer
-  credentials:
-    token: "{{Token}}"
-order: 3000
+order: 6000

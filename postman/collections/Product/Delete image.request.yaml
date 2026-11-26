@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{localUrl}}/api/upload/files/agomhqeiiy9d4b0ku6cxbr0h"
+method: DELETE
+order: 8000

@@ -1,3 +1,14 @@
 $kind: collection
 variables:
-  localUrl: ""
+  - key: localUrl
+    value: ""
+    disabled: false
+  - key: json_web_token_15zi
+    secret: true
+    disabled: false
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: e36e1bf4-e9e6-415e-8284-04d89b943108
+        vaultId: 72e733d0-053e-40f3-b9c9-81022b61e1c2
